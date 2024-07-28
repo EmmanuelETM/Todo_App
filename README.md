@@ -33,4 +33,14 @@ npm run dev -- --open
 
 #### Demostración
 
-[imagen1](./images/Screenshot%202024-07-28%20134218.png)
+- UI de la aplicacion
+![imagen1](./images/Screenshot%202024-07-28%20134218.png)
+![imagen2](./images/Screenshot%202024-07-28%20134319.png)
+![imagen3](./images/Screenshot%202024-07-28%20134327.png)
+![imagen4](./images/Screenshot%202024-07-28%20134358.png)
+![imagen5](./images/Screenshot%202024-07-28%20134411.png)
+![imagen6](./images/Screenshot%202024-07-28%20134429.png)
+![imagen6](./images/Screenshot%202024-07-28%20134533.png)
+![imagen6](./images/Screenshot%202024-07-28%20134538.png)
+![imagen7](./images/Screenshot%202024-07-28%20134546.png)
+![imagen8](./images/Screenshot%202024-07-28%20134553.png)
