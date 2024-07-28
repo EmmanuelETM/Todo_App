@@ -2,7 +2,7 @@
 
 const CardButtonContainer = ({ children }) => {
     return (
-        <div className="flex justify-between space-x-2 mt-4">
+        <div className="flex justify-between space-x-2 mb-4">
             {children}
         </div>
     )
