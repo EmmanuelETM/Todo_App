@@ -20,18 +20,15 @@ const CompleteButton = (props) => {
                 
                 {
                     status ? (
-                        <span className="bg-green-600 border p-1 mr-2 rounded-full cursor-pointer">
+                        <span className="bg-green-600 p-1 mr-2 rounded-full cursor-pointer">
                             <i className="fa-solid fa-check"></i>
                         </span>
                     ) : (
-                        <span className="border p-1 mr-2 rounded-full cursor-pointer">
+                        <span className="hover:bg-green-600 p-1 mr-2 rounded-full cursor-pointer">
                             <i className="fa-solid fa-check"></i>
                         </span>
                     )
                 }
-                
-               
-                Completed
             </button>
         </>
     )

@@ -16,7 +16,7 @@ const App = () => {
     },
     {
       id: 2,
-      title: 'Complete the Todo List asdfl;jasdf asd;fljas;dflj asdl;fj a;sdkfj ;asdkfj;a sdkfj;a skdjf;a sdkfj ;asdkfj;a sdkfj;a sdklfj ;asdfj asd',
+      title: 'Complete the Todo List',
       status: false,
     },
     {
@@ -46,8 +46,8 @@ const App = () => {
 
 
   const addTask = (title) => {
-    const lastID = tasks.length > 0 ? tasks[tasks.lenght -1].id : 1;
-
+    const lastID = tasks.length > 0 ? tasks[tasks.length - 1].id : 1;
+    
     const newTask = {
       id: lastID + 1,
       title,
@@ -56,7 +56,7 @@ const App = () => {
 
     const taskList = [...tasks]
     taskList.push(newTask)
-    setTasks(taskList)
+    setTasks(taskList);
   }
 
   const handleSetComplete = (id) => {
@@ -71,8 +71,8 @@ const App = () => {
   }
 
   const handleSetDelete = (id) => {
-    const updatedList = filteredTasks.filter(task => task.id !== id)
-    setFilteredTasks(updatedList)
+    const updatedList = tasks.filter(task => task.id !== id)
+    setTasks(updatedList)
   }
 
   const handleClearCompleted = () => {
@@ -101,7 +101,7 @@ const App = () => {
       setFilteredTasks(activeTasks)
     }
     else if (activeFilter === 'completed') {
-      const completedTasks = tasks.filter(task => task.completed === true)
+      const completedTasks = tasks.filter(task => task.status === true)
       setFilteredTasks(completedTasks)
     }
   }, [activeFilter, tasks])
