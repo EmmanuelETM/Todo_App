@@ -1,5 +1,6 @@
 //Emmanuel Torres Malena | 2021-1097
 
+//Boton de eliminar task
 const DeleteButton = ({ handleSetDelete, id }) => {
     return (
        <>

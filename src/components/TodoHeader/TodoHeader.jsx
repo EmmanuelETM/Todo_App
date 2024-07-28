@@ -3,6 +3,8 @@
 import TodoForm from "../TodoForm/TodoForm";
 
 const TodoHeader = (props) => {
+
+    //Destructuracion de props
     const {
         addTask,
         activeFilter,
@@ -11,8 +13,10 @@ const TodoHeader = (props) => {
         showActive,
         showCompleted,
     } = props
+
     return (
-        <header className="py-4 px-5 border-b bg-gray-900 border-gray-700">
+        //contenedor para TodoForm
+        <div className="py-4 px-5 border-b bg-gray-900 border-gray-700">
             <TodoForm 
                 addTask={addTask}
                 activeFilter={activeFilter}
@@ -21,7 +25,7 @@ const TodoHeader = (props) => {
                 showActive={showActive}
                 showCompleted={showCompleted}
             />
-        </header>
+        </div>
     )
 }
 

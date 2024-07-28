@@ -1,5 +1,7 @@
 // Emmanuel Torres Malena | 2021-1097
 
+
+//Boton para aplicar los filtros
 const FilterButton = (props) => {
 
     const {

@@ -8,10 +8,11 @@ import TodoCard from "./components/TodoCard/TodoCard"
 
 const App = () => {
 
+  // defincion de estado para los tasks
   const [tasks, setTasks] = useState([
     {
       id: 1,
-      title: 'Watch the next Marvel movie',
+      title: 'Watch Deadpool 3',
       details: 'epico',
       status: false,
     },
@@ -47,10 +48,12 @@ const App = () => {
     },
   ])
 
+  // Definicion de estados para el filtro activo y las tasks filtradas
   const [activeFilter, setActiveFilter] = useState('all')
   const [filteredTasks, setFilteredTasks] = useState(tasks)
 
 
+  //Funcion para agregar un task al estado
   const addTask = (title, details) => {
     const lastID = tasks.length > 0 ? tasks[tasks.length - 1].id : 1;
     
@@ -66,6 +69,7 @@ const App = () => {
     setTasks(taskList);
   }
 
+  // Funcion que marca como completado un task
   const handleSetComplete = (id) => {
     const updatedList = tasks.map(task => {
       if(task.id === id){
@@ -77,28 +81,34 @@ const App = () => {
     setTasks(updatedList)
   }
 
+  //Funcion para manejar la eliminacion de un task
   const handleSetDelete = (id) => {
     const updatedList = tasks.filter(task => task.id !== id)
     setTasks(updatedList)
   }
 
+  //Funcion para borrar todos los tasks completados
   const handleClearCompleted = () => {
     const updatedList = tasks.filter(task => !task.status)
     setTasks(updatedList)
   }
 
+  //Funcion para cambia el filtro para que aparezcan todos los tasks
   const showAll = () => {
     setActiveFilter('all')
   }
 
+  //Funcion para cambia el filtro para que aparezcan solamente los tasks activos
   const showActive = () => {
     setActiveFilter('active')
   }
 
+  //Funcion para cambia el filtro para que aparezcan solamente los tasks completados
   const showCompleted = () => {
     setActiveFilter('completed')
   }
 
+  //Use efect para el renderizado condicional segun el filtro activo que tengamos seleccionado
   useEffect(() => {
     if(activeFilter === 'all') {
       setFilteredTasks(tasks)
@@ -129,6 +139,7 @@ const App = () => {
         handleSetDelete={handleSetDelete}
       />
     </div>
+    
   )
 }
 
