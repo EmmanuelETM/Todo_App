@@ -12,31 +12,37 @@ const App = () => {
     {
       id: 1,
       title: 'Watch the next Marvel movie',
+      details: 'epico',
       status: false,
     },
     {
       id: 2,
       title: 'Complete the Todo List',
+      details: 'epico',
       status: false,
     },
     {
       id: 3,
-      title: 'Stop M&P',
+      title: 'Clean the house',
+      details: 'epico',
       status: false,
     },
     {
       id: 4,
-      title: 'Get a life dud',
+      title: 'Read a Book',
+      details: 'epico',
       status: false,
     },
     {
       id: 5,
-      title: 'Get a life dud',
+      title: 'Take the dogs for a walk',
+      details: 'epico',
       status: false,
     },
     {
       id: 6,
-      title: 'Get a life dud',
+      title: 'Study React',
+      details: 'epico',
       status: false,
     },
   ])
@@ -45,12 +51,13 @@ const App = () => {
   const [filteredTasks, setFilteredTasks] = useState(tasks)
 
 
-  const addTask = (title) => {
+  const addTask = (title, details) => {
     const lastID = tasks.length > 0 ? tasks[tasks.length - 1].id : 1;
     
     const newTask = {
       id: lastID + 1,
       title,
+      details,
       status: false,
     }
 

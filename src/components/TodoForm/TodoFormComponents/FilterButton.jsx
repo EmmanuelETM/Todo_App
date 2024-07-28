@@ -11,7 +11,7 @@ const FilterButton = (props) => {
     //console.log(active)
     
     return (
-        <button onClick={() => action()} className={`hover:text-blue-400 cursor-pointer transition-all duration-300 ease-in-out 
+        <button type="button" onClick={() => action()} className={`hover:text-blue-400 cursor-pointer transition-all duration-300 ease-in-out 
             ` + (active.toLowerCase().includes(filter.toLowerCase()) ? 'text-blue-500' : 'text-gray-400')
         }>
             {filter}

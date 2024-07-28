@@ -15,7 +15,7 @@ const TodoCard = (props) => {
     const {
         id, 
         title,
-        status,
+        details,
     } = content
 
     return (
@@ -26,8 +26,11 @@ const TodoCard = (props) => {
                     <DeleteButton handleSetDelete={handleSetDelete} id={id}/>
                 </CardButtonContainer>
                 
-                <p className="line-clamp-5">
+                <h1 className="text-xl font-bold line-clamp-2">
                     {title}
+                </h1>
+                <p className='mt-2 line-clamp-5'>
+                    {details}
                 </p>
             </div>
         </div>
