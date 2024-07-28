@@ -33,10 +33,14 @@ npm run dev -- --open
 
 #### Demostración
 
-- UI de la aplicacion
+- UI de la App
 ![imagen1](./images/Screenshot%202024-07-28%20134218.png)
+
+- Marcar las tareas en Completado
 ![imagen2](./images/Screenshot%202024-07-28%20134319.png)
 ![imagen3](./images/Screenshot%202024-07-28%20134327.png)
+
+- something
 ![imagen4](./images/Screenshot%202024-07-28%20134358.png)
 ![imagen5](./images/Screenshot%202024-07-28%20134411.png)
 ![imagen6](./images/Screenshot%202024-07-28%20134429.png)
