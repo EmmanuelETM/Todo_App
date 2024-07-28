@@ -13,8 +13,6 @@ Este proyecto es un Todo List App, que le permite al usuario gestionar sus tarea
 
 ### Instalación y Uso
 
-Para instalar este proyecto se necesitan los siguientes pasos:
-
 1. Clonar el Repositorio en su PC
 ```bash
 git clone https://github.com/EmmanuelETM/Todo_App.git
