@@ -27,7 +27,7 @@ npm install
 ```
 
 3. Ejecutar la App
-```bash
+```node
 npm run dev -- --open
 ```
 
