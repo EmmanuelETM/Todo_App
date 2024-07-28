@@ -41,6 +41,7 @@ npm run dev -- --open
 ![image3](./images/Screenshot%202024-07-28%20134327.png)
 
 - Agregar una tarea
+
 ![image4](./images/Screenshot%202024-07-28%20134358.png)
 ![image5](./images/Screenshot%202024-07-28%20134411.png)
 
