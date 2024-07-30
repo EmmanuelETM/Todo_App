@@ -16,7 +16,7 @@ const TodoHeader = (props) => {
 
     return (
         //contenedor para TodoForm
-        <div className="py-4 px-5 border-b bg-gray-900 border-gray-700">
+        <div className="py-4 px-5 border-b bg-gray-900 border-gray-700 sticky top-0 z-50">
             <TodoForm 
                 addTask={addTask}
                 activeFilter={activeFilter}

@@ -124,7 +124,7 @@ const App = () => {
   }, [activeFilter, tasks])
 
   return (
-    <div className="bg-gray-900 min-h-screen h-full text-gray-200 sticky top-0 z-50">
+    <div className="bg-gray-900 min-h-screen h-full text-gray-200">
       <TodoHeader 
         addTask={addTask}
         activeFilter={activeFilter}
