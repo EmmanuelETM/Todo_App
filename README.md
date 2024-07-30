@@ -2,7 +2,7 @@
 ### Emmanuel Torres Malena | 2021-1097
 
 
-#### Descripción del Proyecto
+### Descripción del Proyecto
 
 Este proyecto es un Todo List App, que le permite al usuario gestionar sus tareas. Con esta aplicacion el usuario puede agregar tareas, marcarlas como completadas, elimiar las tareas, y puede filtrar las tareas segun sus estado (completadas, activas y todas). Las tecnologias utilizadas para realizar este proyecto son: 
 
@@ -11,9 +11,7 @@ Este proyecto es un Todo List App, que le permite al usuario gestionar sus tarea
 - Tailwindcss
 - Font Awesome
 
-#### Instalación y Uso
-
-Para instalar este proyecto se necesitan los siguientes pasos:
+### Instalación y Uso
 
 1. Clonar el Repositorio en su PC
 ```bash
@@ -31,7 +29,9 @@ npm install
 npm run dev -- --open
 ```
 
-#### Demostración
+### Demostración
+
+- [Video de App en Funcionamiento](https://miucateciedu-my.sharepoint.com/:v:/g/personal/20211097_miucateci_edu_do/ERSUShwiQsJEm_6x5rPsASgBJRFLmG3iLrc0iiAePo70hg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J3eucw)
 
 - UI de la App
 ![image1](./images/Screenshot%202024-07-28%20134218.png)
@@ -41,6 +41,7 @@ npm run dev -- --open
 ![image3](./images/Screenshot%202024-07-28%20134327.png)
 
 - Agregar una tarea
+
 ![image4](./images/Screenshot%202024-07-28%20134358.png)
 ![image5](./images/Screenshot%202024-07-28%20134411.png)
 
